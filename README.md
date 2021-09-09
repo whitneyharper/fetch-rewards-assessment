@@ -17,6 +17,7 @@ A backend REST API web service that accepts HTTP requests and returns responses 
 * JavaScript
 * Node.js
 * MongoDB database
+* Mongoose ORM
 
 ### Dependencies
 
@@ -24,9 +25,22 @@ A backend REST API web service that accepts HTTP requests and returns responses 
 * mongoose
 * nodemon
 
+### Before Installing
+* MongoDB is required and need to be on local machine.
+* Go to the [MongoDB](https://docs.mongodb.com/guides/server/install/#what-you-ll-need) site.
+* Here is [Guide](https://docs.mongodb.com/guides/server/install/#what-you-ll-need) for setup.
+* A generic connection url is provided in the setup.js file in the database folder.
+* Also Node.js is required.
+* Go to the .[Node.js](https://nodejs.org/en/) site.
+* Once MongoDB and Node.js are installed you start cloning the respository.
+
 ### Installing
 
 * Clone repository git clone 
+
+```
+git@github.com:whitneyharper/fetch-rewards-assessment.git
+```
 
 * To install dependencies type [npm install] in the terminal 
 
@@ -44,6 +58,7 @@ npm start
 ```
 nodemon
 ```
+
 ## Testing the API
 Use POSTMAN to test routes.
 
@@ -51,8 +66,7 @@ Use POSTMAN to test routes.
 * Create an account or log in.
 * From your account's home screen, create or use an existing `Workspace` by clicking on `Workspace` in the top left menu bar.
 * Once you're in a workspace, click on `Create a request` on the right under `Getting started`.
-* Your interface should look like the image below.
->![Postman 1](/assets/images/postman-1.jpg)
+* I provided an image to show what your workspace should look like. Please view (postman dashboard.png).
 * I provided a transactions.json file with data to test routes.
 
 ### Create a new transaction
@@ -105,7 +119,7 @@ Use POSTMAN to test routes.
 - **Expected response** <br>
    ```
    {
-        "balance": [
+        "balances": [
             {
                 "_id": "dannon",
                 "points": 1300
