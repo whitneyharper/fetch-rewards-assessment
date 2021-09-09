@@ -57,7 +57,7 @@ Use POSTMAN to test routes.
 
 ### Create a new transaction
 - API <br> POST/ <localhost:3000/transactions/add>
-    * This route wil allow user to created one transaction at a time.
+    * This route will allow user to created one transaction at a time.
 
 - **Input** <br> 
   `{ "payer": "DANNON", "points": 1000, "timestamp": "2020-11-02T14:00:00Z" }` <br>
