@@ -124,22 +124,22 @@ Use POSTMAN to test routes.
   
 - **Expected response** <br>
     ```
-    {
-        [
-            {
-                "payer": "DANNON",
-                "points": -100
-            },
-            {
-                "payer": "UNILEVER",
-                "points": -200
-            },
-            {
-                "payer": "MILLER COORS",
-                "points": -4700
-            }
-        ]
-    }
+    
+    [
+        {
+            "payer": "DANNON",
+            "points": -100
+        },
+        {
+            "payer": "UNILEVER",
+            "points": -200
+        },
+        {
+            "payer": "MILLER COORS",
+            "points": -4700
+        }
+    ]
+    
  
 ## Authors
 

@@ -58,7 +58,6 @@ exports.spendPoints = async(req, res) => {
                     } else {
                         currentBalance = -deductedBalance
                     }
-                    console.log(deductedPoints, deductedBalance);
                         let existingPayer = payers.find((payer) => {
                             return payer.payer == transactions.payer;
                         });
