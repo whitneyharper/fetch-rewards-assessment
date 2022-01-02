@@ -17,7 +17,7 @@ A backend REST API web service that accepts HTTP requests and returns responses 
 * JavaScript
 * Node.js
 * MongoDB database
-* Mongoose ORM
+* Mongoose ODM
 
 ### Dependencies
 
